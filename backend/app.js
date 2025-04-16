@@ -12,7 +12,7 @@ connectToDB();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cors({
-    origin: "http://localhost:5173", // frontend origin
+    origin: "https://project-and-task-management-xi.vercel.app", // frontend origin
     credentials: true
 }));
 
