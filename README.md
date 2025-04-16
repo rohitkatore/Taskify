@@ -86,7 +86,7 @@ A modern, full-stack web application for managing projects and tasks with team c
 
 6. Access the application
    - Frontend: http://localhost:5173
-   - Backend API: http://localhost:4000
+   - Backend API: https://projectandtaskmanagement.onrender.com
 
 ## API Documentation
 

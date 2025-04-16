@@ -8,7 +8,7 @@ export const UserProvider = ({children})=>{
     const [loading,setLoading] = useState(true) ;
     const [token,setToken] = useState(null);
 
-    const url = "http://localhost:4000"
+    const url = "https://projectandtaskmanagement.onrender.com"
 
     useEffect(()=>{
         const token = localStorage.getItem('token') ;
