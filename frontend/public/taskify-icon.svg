@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="taskify-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect x="4" y="4" width="24" height="24" rx="6" fill="url(#taskify-gradient)"/>
+  
+  <!-- White border -->
+  <rect x="4" y="4" width="24" height="24" rx="6" fill="none" stroke="#FFFFFF" stroke-width="0.5"/>
+  
+  <!-- Large checkmark -->
+  <path d="M11 16L14.5 19.5L21 13" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- T letter on top left -->
+  <path d="M8 9 L12 9 M10 9 L10 12.5" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

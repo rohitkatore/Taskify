@@ -1,18 +1,19 @@
-# Project and Task Management System
+# Taskify - Project and Task Management System
 
-A modern, full-stack web application for managing projects and tasks with team collaboration features.
+A modern, full-stack web application for streamlining project and task management with powerful team collaboration features.
 
-![Project Screenshot](frontend/public/screenshot.png)
+![Taskify Screenshot](frontend/public/screenshot.png)
 
 ## Features
 
 - **User Authentication**: Secure login and registration system with role-based access control
-- **Project Management**: Create, view, and manage projects
-- **Task Management**: Create tasks within projects with priority levels and status tracking
-- **Comments System**: Add comments on tasks for team communication
-- **Dynamic Dashboard**: Visual overview of project and task statistics
-- **Task Filtering**: Filter tasks by status, priority, and assignment
+- **Project Management**: Create, view, and manage projects with ease
+- **Smart Task Management**: Create tasks within projects with priority levels and status tracking
+- **Real-time Comments**: Add comments on tasks for seamless team communication
+- **Interactive Dashboard**: Visual overview of project and task statistics
+- **Advanced Filtering**: Filter tasks by status, priority, and assignment
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Modern UI**: Clean, intuitive interface with smooth animations
 
 ## Tech Stack
 

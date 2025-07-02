@@ -10,6 +10,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import ProjectDetails from "./pages/ProjectDetails";
 import { useToast } from "./context/ToastContext";
 import { useEffect } from "react";
+import CountryCityDropdown from "./pages/CountryCityDropdown";
 
 function App() {
   const { loading, user } = useUser();
@@ -20,7 +21,7 @@ function App() {
     const hasVisited = localStorage.getItem("hasVisited");
     if (!hasVisited) {
       const timer = setTimeout(() => {
-        showToast("Welcome to the Project Management System!", "info");
+        showToast("Welcome to Taskify! Your productivity companion.", "info");
         localStorage.setItem("hasVisited", "true");
       }, 1000);
 
@@ -84,6 +85,7 @@ function App() {
         path="register"
         element={!user ? <Register /> : <Navigate to="/" />}
       />
+      <Route path="/temp" element={<CountryCityDropdown />}></Route>
     </Routes>
   );
 }

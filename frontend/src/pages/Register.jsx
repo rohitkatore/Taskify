@@ -116,10 +116,11 @@ function Register() {
             </motion.div>
           </div>
           <h1 className="text-3xl font-extrabold text-gray-900 tracking-tight mb-2">
-            Create Your Account
+            Join Taskify Today
           </h1>
           <p className="text-gray-600 max-w-sm mx-auto">
-            Join our platform to manage projects and collaborate with your team
+            Create your account to start organizing tasks and boosting
+            productivity
           </p>
         </motion.div>
 

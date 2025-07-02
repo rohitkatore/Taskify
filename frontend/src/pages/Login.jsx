@@ -113,10 +113,10 @@ function Login() {
             </motion.div>
           </div>
           <h1 className="text-3xl font-extrabold text-gray-900 tracking-tight mb-2">
-            Welcome Back!
+            Welcome to Taskify!
           </h1>
           <p className="text-gray-600 max-w-sm mx-auto">
-            Sign in to your account to continue your productivity journey
+            Sign in to streamline your tasks and boost productivity
           </p>
         </motion.div>
 

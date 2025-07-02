@@ -9,7 +9,7 @@ import {
   LogOut,
   User,
   ChevronDown,
-  Briefcase,
+  CheckSquare,
   LayoutDashboard,
   Settings,
   Moon,
@@ -64,7 +64,7 @@ function Navbar() {
                 darkMode ? "bg-indigo-600" : "bg-white/20"
               } mr-3`}
             >
-              <Briefcase className="w-6 h-6" />
+              <CheckSquare className="w-6 h-6" />
             </motion.div>
             <div>
               <motion.h1
@@ -73,8 +73,8 @@ function Navbar() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
               >
-                <span className="hidden sm:inline">Project Manager</span>
-                <span className="sm:hidden">PM</span>
+                <span className="hidden sm:inline">Taskify</span>
+                <span className="sm:hidden">TF</span>
               </motion.h1>
               <motion.div
                 className="hidden sm:block text-xs opacity-80"
@@ -82,7 +82,7 @@ function Navbar() {
                 animate={{ opacity: 0.8 }}
                 transition={{ delay: 0.3 }}
               >
-                Organize • Collaborate • Succeed
+                Task • Track • Transform
               </motion.div>
             </div>
           </Link>
