@@ -12,7 +12,7 @@ connectToDB();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cors({
-    origin: ["https://project-and-task-management-xi.vercel.app","http://localhost:5173"], // frontend origin
+    origin: ["https://taskify-official.vercel.app","http://localhost:5173"], // frontend origin
     credentials: true
 }));
 
